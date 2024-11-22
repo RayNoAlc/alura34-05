@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Energia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plotly.com/plotly-2.27.0.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <h1>Consumo Global de Energia</h1>
+        <nav>
+            <a href="index.html">Global</a>
+            <a href="#">Regiões</a>
+        </nav>
+    </header>
+    <main class="dashboard-container">
+        <section id="statistics" class="info-container">
+            <!-- Estatísticas dinâmicas carregadas aqui -->
+        </section>
+        <section id="graphs" class="graph-container">
+            <!-- Gráficos carregados aqui -->
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ryan Nogueira</p>
+    </footer>
+    <script type="module" src="scripts/globalStats.js"></script>
+    <script type="module" src="scripts/consumptionGraph.js"></script>
+</body>
+</html>
